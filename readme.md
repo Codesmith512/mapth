@@ -9,4 +9,4 @@
     </svg>
 </div>
 
-v2
+v2 | It's Wargotime ▢
