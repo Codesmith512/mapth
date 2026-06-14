@@ -19,7 +19,7 @@ Division is the inverse of multiplication and lets one figure out \\(A \times ? 
 # Notation
 | Symbol | Name | Description |
 | -------- | ---- | ----------- |
-| \\(\mathbb{N}\\) | The natural numbers |
+| \\(\mathbb{N}\\) | The natural numbers | |
 | \\(2\\)            | Number              | All possible sets with 2 members  |
 | \\(2 + 4\\)      | Addition            | The size of the set after merging any set of 2 elements with any set of 4 elements |
 | \\(6-2\\)        | Subtraction         | Work backwards and figure out what a set of 2 elements was added to create a set of 6 elements |
