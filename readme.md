@@ -4,7 +4,7 @@
         <a href="./topics/naive_set_theory.html">
             <rect opacity="0" x="808" y="653" width="164" height="120" fill="#D9D9D9">
         </a>
-        <a hrerf="./topics/arithmetic.html">
+        <a href="./topics/arithmetic.html">
             <rect opacity="0" x="1162" y="600" width="151" height="116" fill="#D9D9D9"/>
         </a>
     </svg>
