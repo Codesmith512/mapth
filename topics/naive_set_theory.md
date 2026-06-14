@@ -28,9 +28,6 @@ A_1 = \{ 0, 1, 2, 3 \}
 $$
 > $A_1$ is exactly 0, 1, 2, and 3
 
-{% include note.html content="This is my note. All the content I type here is treated as a single paragraph." %}
-
-
 Intensional notation defines the rule that all elements of the set must follow, by naming a potential member and then stating the condition that it must meet
 $$
 A_2 = \{ n \> | \> n < 4\}
