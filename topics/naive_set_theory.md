@@ -1,3 +1,7 @@
+---
+title: Naive Set Theory
+---
+
 A long time ago, set theory spanned almost the entire continent. Nowadays, it remains an honorable city-state. The people of the former empire of set theory still believe that everything is one of three things
 - A *Set* of elements
 - *Elements* in those sets
@@ -25,13 +29,13 @@ the cornerstone of any set is describing which elements make it up. There are tw
 
 Extensional notation explicitly lists the elements in the set (the extent) :
 $$
-A\_1 = \\{ 0, 1, 2, 3 \\}
+A\_1 = \{ 0, 1, 2, 3 \}
 $$
 > $A\_1$ is exactly 0, 1, 2, and 3
 
 Intensional notation defines the rule that all elements of the set must follow, by naming a potential member and then stating the condition that it must meet
 $$
-A\_2 = \\{ n \> | \> n < 4 \\}
+A\_2 = \{ n \> | \> n < 4 \}
 $$
 > $A\_2$ is all n such that n is less than 4
 
@@ -39,7 +43,7 @@ Note that $A\_2$ is different than $A\_1$ because it can contain anything less t
 
 To fix this, we can say that all potential members must come from an already existing set, such as the countable numbers
 $$
-A\_3 = \\{ n \in \mathbb{N} \> | \> n<4 \\}
+A\_3 = \{ n \in \mathbb{N} \> | \> n<4 \}
 $$
 > $A\_3$ is all n in the natural numbers such that n is less than 4
 
@@ -55,7 +59,7 @@ $$
 
 Other maps take elements of one set and map them onto elements of another set entirely. Consider this map that takes a ratio (between 0 and 1) and turns it into a percentage :
 $$
-percent : \\{x | 0 \leq x \leq 1\\} \rightarrow \\{y|0 \leq y \leq 100\\}, x \mapsto x \times 100
+percent : \{x | 0 \leq x \leq 1\} \rightarrow \{y|0 \leq y \leq 100\}, x \mapsto x \times 100
 $$
 > $percent$ is a map from the set of all $x$ between $0$ and $1$ to the set of all $y$ between $0$ and $100$, such that every $x$ maps to $x \times 100$
 
