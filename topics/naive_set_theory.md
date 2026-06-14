@@ -16,7 +16,7 @@ Symbol | Meaning
 | \\(e\\)                                  | An element \\(e\\)                                                |
 | \\(S\\)                                  | A set named \\(S\\)                                               |
 | \\(e \in S\\)                            | \\(e\\) is in \\(S\\)                                                 |
-| \\(f : A \rightarrow B, a \mapsto b\\) | The map \\(f)\\, which turns elements of \\(A\\) into elements of \\(B\\) |
+| \\(f : A \rightarrow B, a \mapsto b\\) | The map \\(f\\), which turns elements of \\(A\\) into elements of \\(B\\) |
 | \\(\mathbb{N}\\)                         | The set of all natural numbers                                |
 
 ## Set Builder Notation
