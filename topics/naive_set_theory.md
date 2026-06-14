@@ -24,25 +24,25 @@ the cornerstone of any set is describing which elements make it up. There are tw
 
 Extensional notation explicitly lists the elements in the set (the extent) :
 $$
-A_1 = \{ 0, 1, 2, 3 \}
+A\_1 = \{ 0, 1, 2, 3 \}
 $$
-> $A_1$ is exactly 0, 1, 2, and 3
+> $A\_1$ is exactly 0, 1, 2, and 3
 
 Intensional notation defines the rule that all elements of the set must follow, by naming a potential member and then stating the condition that it must meet
 $$
-A_2 = \{ n \> | \> n < 4\}
+A\_2 = \{ n \> | \> n < 4\}
 $$
-> $A_2$ is all n such that n is less than 4
+> $A\_2$ is all n such that n is less than 4
 
-Note that $A_2$ is different than $A_1$ because it can contain anything less than 4, such as the number -12, a perfectly reasonably sized hot dog, or your left sock.
+Note that $A\_2$ is different than $A\_1$ because it can contain anything less than 4, such as the number -12, a perfectly reasonably sized hot dog, or your left sock.
 
 To fix this, we can say that all potential members must come from an already existing set, such as the countable numbers
 $$
-A_3 = \{ n \in \mathbb{N} \> | \> n<4 \}
+A\_3 = \{ n \in \mathbb{N} \> | \> n<4 \}
 $$
-> $A_3$ is all n in the natural numbers such that n is less than 4
+> $A\_3$ is all n in the natural numbers such that n is less than 4
 
-$A_3$ now contains all the same elements as $A_1$, it’s just defined intensionally.
+$A\_3$ now contains all the same elements as $A\_1$, it’s just defined intensionally.
 
 # Maps
 
