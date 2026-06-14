@@ -17,6 +17,7 @@ Multiplication (or the product) \\(A \times B\\) is the result of pairing every 
 Division is the inverse of multiplication and lets one figure out \\(A \times ? = C\\), noted as \\(C/A\\). Not all division problems are solvable with natural numbers.
 
 # Notation
+
 | Symbol | Name | Description |
 | -------- | ---- | ----------- |
 | \\(\mathbb{N}\\) | The natural numbers | |
