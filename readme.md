@@ -12,7 +12,7 @@
 
 <script>
 const viewport = document.getElementById('image-viewport');
-const img = viewport.querySelectorAll('img')
+const img = viewport.querySelectorAll('img')[0]
 
 function centerViewport() {
     viewport.scrollTo(
