@@ -16,8 +16,8 @@ const img = viewport.querySelectorAll('img')[0]
 
 function centerViewport() {
     viewport.scrollTo(
-        img.width - viewport.width / 2,
-        img.height - viewport.heigh / 2,
+        img.width - viewport.clientWidth / 2,
+        img.height - viewport.clientHeigh / 2,
     );
 }
 
