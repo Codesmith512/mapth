@@ -21,8 +21,8 @@ function centerViewport() {
     );
 }
 
-if (img.complete) centerImage()
-else img.addEventListener('load', centerImage);
+if (img.complete) centerViewport()
+else img.addEventListener('load', centerViewport);
 </script>
 
 v6 | It's Wargotime ▢
