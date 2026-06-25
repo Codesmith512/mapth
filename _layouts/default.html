@@ -14,21 +14,21 @@ window.MathJax = {
   }
 };
 
-$(document).ready(function () {
+function onload () {
 	mermaid.initialize({
 		startOnLoad:true,
 		theme: "default",
 	});
 	window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
-});
+};
 		</script>
 		<style>
 body.h1 {
-	text-transform: captialize;
+	text-transform: capitalize;
 }
 		</style>
 	</head>
-	<body>
+	<body onload="onload()">
 		<h1>{{ page.title }}</h1>
 		<em>{{ page.aka }}</em>
 		{{ content }}
