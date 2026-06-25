@@ -1,5 +1,6 @@
 ---
-title: Naive Set Theory
+title: naive set theory
+rigor: camp
 ---
 
 A long time ago, set theory spanned almost the entire continent. Nowadays, it remains an honorable city-state. The people of the former empire of set theory still believe that everything is one of three things
@@ -7,7 +8,7 @@ A long time ago, set theory spanned almost the entire continent. Nowadays, it re
 - *Elements* in those sets
 - *Maps* that convert elements between those sets
 
-Don’t let this simplicity fool you, as there are still many adherents outside its borders, and these beliefs form a sort of Lingua Franca (or business language) that persists to this day in many other regions. In fact, its cultural influence is so strong that when sufficient logic is applied to set theory, it can derive all other fields of math. This is largely because there are virtually no restrictions on what can be an element - sets or maps can also be elements of other sets.
+Don’t let this simplicity fool you, as there are still many adherents outside its borders, and these beliefs form a sort of Lingua Franca (or business language) that persists to this day in many other regions. In fact, its cultural influence is so strong that when sufficient logic is applied to set theory, it can derive all other fields of math. This is largely because there are virtually no restrictions on what can be an element - sets or maps can also be elements of other sets. This makes even naive set theory a valuable catalyst for learning other fields.
 
 Also notable is the pilgrimage that every child makes to the temple in set theory as they learn to count. If you remember counting cookies or stones or trees, then you remember counting the elements in a particular set (or domain). You also probably remember learning to add and subtract by combining or splitting sets.
 
@@ -15,13 +16,13 @@ Also notable is the pilgrimage that every child makes to the temple in set theor
 
 Common Symbols
 
-Symbol | Meaning
-| ------------------------------------ | ------------------------------------------------------------- |
-| $e$                                  | An element $e$                                                |
-| $S$                                  | A set named $S$                                               |
-| $e \in S$                            | $e$ is in $S$                                                 |
+| Symbol | Meaning |
+| ------ | ------- |
+| $e$ | An element $e$ |
+| $S$ | A set named $S$ |
+| $e \in S$ | $e$ is in $S$ |
 | $f : A \rightarrow B, a \mapsto b$ | The map $f$, which turns elements of $A$ into elements of $B$ |
-| $\mathbb{N}$                         | The set of all natural numbers                                |
+| $\mathbb{N}$ | The set of all natural numbers |
 
 ## Set Builder Notation
 

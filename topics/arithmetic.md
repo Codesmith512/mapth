@@ -1,5 +1,7 @@
 ---
-title: Arithmetic
+title: arithmetic
+area: number theory
+rigor: camp
 ---
 
 If you depart [Naive Set Theory](./naive_set_theory.html) headed east through the Number Theory Range, you will quickly end up in the small town of Arithmetic. The core value these people hold is that sets are reduced to just the number of elements they contain. As such these people don’t care about what’s in the sets, and instead reason about all possible sets with 5 elements (for example).
