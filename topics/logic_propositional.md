@@ -22,14 +22,14 @@ T \equiv \text{Wargo is drinking tea} \\
 $$
 
 $$
-\text{stayWarm} \equiv R \wedge C \rightarrow I \\
-\text{becomeCozy} \equiv C \wedge I \rightarrow T \\
+\text{stay warm} \equiv R \wedge C \rightarrow I \\
+\text{become cozy} \equiv C \wedge I \rightarrow T \\
 $$
 
-> Staying warm is means that when it is raining and it is cold then Wargo is inside \
-> Becoming cozy is means that when it is cold outside and Wargo is inside then Wargo is drinking tea
+> Staying warm means that when it is raining and it is cold then Wargo is inside \
+> Becoming cozy means that when it is cold outside and Wargo is inside then Wargo is drinking tea
 
-Simply by stating facts and their connectives, we can already discover the hidden truth that every time it rains while it's cold out, I drink tea :
+By breaking down the world into simple facts and their connectives, we can already discover the hidden truth that every time it rains while it's cold out, I drink tea :
 
 ```mermaid
 graph TD

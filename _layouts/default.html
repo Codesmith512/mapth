@@ -6,7 +6,6 @@
 		<link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 		<script src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js" defer></script>
 		</script>
-		<script src="https://unpkg.com/mermaid@11.16/dist/mermaid.min.js"></script>
 		<script>
 window.MathJax = {
   tex: {
@@ -14,13 +13,8 @@ window.MathJax = {
   }
 };
 
-function onload () {
-	mermaid.initialize({
-		startOnLoad:true,
-		theme: "default",
-	});
-	window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
-};
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+mermaid.initialize({ startOnLoad: true });
 		</script>
 		<style>
 body h1 {
