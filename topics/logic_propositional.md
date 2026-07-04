@@ -37,6 +37,7 @@ graph TD
         direction LR
         R[It is raining ⛈️]
         C[It is cold 🧊]
+        R ~~~ C
     end
 
     sw{stay warm}
