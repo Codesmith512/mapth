@@ -31,6 +31,10 @@ body h1 {
 	text-transform: capitalize;
 }
 
+pre {
+	background: none;
+}
+
 body::before {
   content: "";
   position: fixed;
@@ -63,8 +67,7 @@ mermaid.initialize({
 	startOnLoad: false,
 	theme: 'base',
 	themeVariables: {
-		primaryColor: "#ddd",
-		background: "#00000000",
+		primaryColor: "#ddd"
 	}
 });
 
