@@ -51,6 +51,8 @@ graph TD
     bc --> T
     
     subgraph Prove
+        space[ ]
+        style space fill:none,stroke-width:0px
         T[Wargo is drinking tea 🍵]
     end
 ```
