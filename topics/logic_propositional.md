@@ -64,8 +64,8 @@ Usually, propositions are bound to single-letter variables, and connectives are 
 | Symbol | Connective | Meaning |
 | ------ | ---------- | ------- |
 | $A \wedge B$ | And | Both $A$ and $B$ are true |
-| $A \vee B \\ A \parallel B$ | Or | Either $A$ or $B$ is true, maybe both |
-| $A \veebar B \\ A \oplus B$ | Xor | Either $A$ or $B$ is true, but not both |
+| $A \vee B \\\\ A \parallel B$ | Or | Either $A$ or $B$ is true, maybe both |
+| $A \veebar B \\\\ A \oplus B$ | Xor | Either $A$ or $B$ is true, but not both |
 | $\neg A$ | Not | Not $A$ (or $A$ is not true) |
 | $A \rightarrow B$ | Implies | When $A$ then $B$ |
-| $A \equiv B \\ A \leftrightarrow B$ | Equals | $A$ equals $B$
+| $A \equiv B \\\\ A \leftrightarrow B$ | Equals | $A$ equals $B$
