@@ -34,10 +34,8 @@ By breaking down the world into simple facts and their connectives, we can alrea
 ```mermaid
 graph TD
     subgraph Given
-        direction LR
         R[It is raining ⛈️]
         C[It is cold 🧊]
-        R ~~~ C
     end
 
     sw{stay warm}
