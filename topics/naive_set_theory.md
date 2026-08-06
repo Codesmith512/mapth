@@ -87,4 +87,13 @@ $$
 
 In other words, does the set of all sets that do not contain themselves, contain itself?
 
-In order to kill this dragon, Zermelo teamed up with Fraenkel to create ZF set theory, which avoids this famous paradox while still being flexible enough to underpin mathematics. For more, visit the modern capital of Set Theory, ZFC.
+In order to kill this dragon, Ernst Zermelo teamed up with Fraenkel to create ZF set theory, which avoids this famous paradox while still being flexible enough to underpin mathematics. For more, visit the [Modern Capital of Set Theory, ZFC](./topics/set_theory_zfc.html).
+
+<details markdown="1">
+<summary><em> In Mathlib... </em></summary>
+
+[Sets](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Data/Set/Defs.html#Set.ofPred) are intensional sets, and [HashSets](https://leanprover-community.github.io/mathlib4_docs/Std/Data/HashSet/Basic.html#Std.HashSet) are extensional  sets.
+
+Both support membership testing via the [∈](https://leanprover-community.github.io/mathlib4_docs/Init/Notation.html#%C2%ABterm_%E2%88%88_%C2%BB) operator.
+
+</details>
