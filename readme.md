@@ -33,4 +33,4 @@ if (img.complete) centerViewport()
 else img.addEventListener('load', centerViewport);
 </script>
 
-v6 | It's Wargotime ▢
+v6 | [It's Wargotime ▢](https://wargotime.com)
