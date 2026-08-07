@@ -62,7 +62,7 @@ body::before {
 	<body>
 		<div class="container">
 			<h1>{{ page.title }}</h1>
-			<h2><em>{{ page.aka }}</em></h2>
+			{% if page.aka %}<h2><em>{{ page.aka }}</em></h2>{% endif %}
 			{{ content }}
 		</div>
   	</body>
