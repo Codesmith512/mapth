@@ -9,7 +9,7 @@ The people passing through the camp of propositional logic regard everything as 
 * Propositions
 * Connectives
 
-A proposition is a statement that is strictly true or false, and a connective is a relationship between two propositions. This forms the basis for virtually all other fields of logic, and most people staying at this camp pretty quickly hike to [First Order Logic](./topics/logic_first_order.html).
+A proposition is a statement that is strictly true or false, and a connective is a relationship between two propositions. This forms the basis for virtually all other fields of logic, and most people staying in this village pretty quickly hike to [First Order Logic](./topics/logic_first_order.html).
 
 # An Example
 Logic in general seeks to state what is known as precisely as possible and then use that knowledge to determine what all can possibly be known. Even with the primitive tools of propositional logic, we can start to see how that works by considering my behavior on a rainy day :
@@ -69,3 +69,17 @@ Usually, propositions are bound to single-letter variables, and connectives are 
 | $\neg A$ | Not | Not $A$ (or $A$ is not true) |
 | $A \rightarrow B$ | Implies | When $A$ then $B$ |
 | $A \equiv B \\\\ A \leftrightarrow B$ | Equals | $A$ equals $B$
+
+
+<details markdown="1">
+<summary><em> In Mathlib... </em></summary>
+
+As stated earlier, Propositions form the basis of logic, so it's no surprise that [Prop is one of the few things that is foundationally defined in the language itself](https://leanprover-community.github.io/mathlib4_docs/foundational_types.html). Being foundational means that if it wasn't defined for us, we wouldn't be able to implement it ourselves.
+
+Given that Propositions represent what is true, omitting them would amount to not having the idea of what it means to be true. Deriving that concept frorm a vacuum feels borderline philosophical.
+
+Also interesting is that the [implication connective is just a function, which is also foundationally defined in the language](https://leanprover-community.github.io/mathlib4_docs/foundational_types.html). Given that implications represent causality, this also feels like an appropriate foundation, or else the philsosphical debate of causality would probably be settled.
+
+That being said, the rest of the propositional connectives are defined as inductive types - [And](https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#And), [Or](https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#Or), [Xor](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Logic/Basic.html#Xor), [Not](https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#Not), [Eqals](https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#Eq). This is fascinating, because in many languages, some of these are foundational. Even languages like C++ that let you define your own operations also have to bundle their own, because custom operators defer to the language builtin ones at some point. But in dependently typed languages like Lean, these connectives can be drawn from even more basic logical structures.
+
+</details>
