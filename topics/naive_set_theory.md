@@ -1,6 +1,6 @@
 ---
 title: naive set theory
-rigor: camp
+rigor: village
 ---
 
 A long time ago, set theory spanned almost the entire continent. Nowadays, it remains an honorable city-state. The people of the former empire of set theory still believe that everything is one of three things
@@ -88,6 +88,8 @@ $$
 In other words, does the set of all sets that do not contain themselves, contain itself?
 
 In order to kill this dragon, Ernst Zermelo teamed up with Fraenkel to create ZF set theory, which avoids this famous paradox while still being flexible enough to underpin mathematics. For more, visit the [Modern Capital of Set Theory, ZFC](./topics/set_theory_zfc.html).
+
+---
 
 <details markdown="1">
 <summary><em>In <a href="/appendix/mathlib.html">Mathblib</a>...</em></summary>

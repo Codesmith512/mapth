@@ -7,7 +7,7 @@
             <a href="./topics/naive_set_theory.html">
                 <rect opacity="0" x="861" y="634" width="164" height="120" fill="#D9D9D9"/>
             </a>
-            <a href="./topics/logic_propositional.html">
+            <a href="./topics/logic_zero_order.html">
                 <rect opacity="0" x="572" y="459" width="188" height="120" fill="#D9D9D9"/>
             </a>
             <rect opacity="0" x="553" y="727" width="171" height="120" fill="#D9D9D9"/>

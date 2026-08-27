@@ -2,10 +2,10 @@
 title: propositional logic
 aka: zeroth order logic
 area: logic
-rigor: camp
+rigor: village
 ---
 
-The people passing through the camp of propositional logic regard everything as either
+The people passing through the village of propositional logic regard everything as either
 * Propositions
 * Connectives
 
@@ -68,8 +68,12 @@ Usually, propositions are bound to single-letter variables, and connectives are 
 | $A \veebar B \\\\ A \oplus B$ | Xor | Either $A$ or $B$ is true, but not both |
 | $\neg A$ | Not | Not $A$ (or $A$ is not true) |
 | $A \rightarrow B$ | Implies | When $A$ then $B$ |
-| $A \equiv B \\\\ A \leftrightarrow B$ | Equals | $A$ equals $B$
+| $A \equiv B$ | Definition | $A$ is defined as $B$ |
+| $A \leftrightarrow B$ | Equals* | $A$ equals $B$ |
 
+*Technically, this is an "If and only If" (IFF) statement, which is botht a bidirectional implication, as well as a form of equality.
+
+---
 
 <details markdown="1">
 <summary><em>In <a href="/appendix/mathlib.html">Mathblib</a>...</em></summary>
@@ -80,6 +84,6 @@ Given that Propositions represent what is true, omitting them would amount to no
 
 Also interesting is that the [implication connective is just a function, which is also foundationally defined in the language](https://leanprover-community.github.io/mathlib4_docs/foundational_types.html). Given that implications represent causality, this also feels like an appropriate foundation, or else the philsosphical debate of causality would probably be settled.
 
-That being said, the rest of the propositional connectives are defined as inductive types - [And](https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#And), [Or](https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#Or), [Xor](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Logic/Basic.html#Xor), [Not](https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#Not), [Eqals](https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#Eq). This is fascinating, because in many languages, some of these are foundational. Even languages like C++ that let you define your own operations also have to bundle their own, because custom operators defer to the language builtin ones at some point. But in dependently typed languages like Lean, these connectives can be drawn from even more basic logical structures.
+That being said, the rest of the propositional connectives are defined as inductive types - [And](https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#And), [Or](https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#Or), [Xor](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Logic/Basic.html#Xor), [Not](https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#Not), [Eqals](https://leanprover-community.github.io/mathlib4_docs/Init/Prelude.html#Eq). This is fascinating, because in many languages, these operations cannot be implemented by the user. Even languages that let you define your own operations (like C++) also have to bundle their own, because custom operators defer to the language builtin ones at some point. But in dependently typed languages like Lean, there is a more foundational logic that these can be derived from.
 
 </details>
