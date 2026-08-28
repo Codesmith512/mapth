@@ -54,7 +54,7 @@ If I randomly stop posting on this blog, it's probably because I found the cute 
 ---
 
 <details markdown="1">
-<summary><em>In <a href="/appendix/mathlib.html">Mathblib</a>...</em></summary>
+<summary><em>In <a href="/mapth/appendix/mathlib.html">Mathblib</a>...</em></summary>
 
 Universal Quantification is [foundational](https://leanprover-community.github.io/mathlib4_docs/foundational_types.html), as it's simply a special type of function. If this isn't intuitive, think about how you can frame a computational function as a universal quantification. For example, a function that takes a natural number and returns the successor can also be stated as "for any natural number, $n$, it holds that there is a successor", and then the algorithm for computing the next number serves as the proof.
 

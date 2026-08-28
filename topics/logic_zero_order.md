@@ -76,7 +76,7 @@ Usually, propositions are bound to single-letter variables, and connectives are 
 ---
 
 <details markdown="1">
-<summary><em>In <a href="/appendix/mathlib.html">Mathblib</a>...</em></summary>
+<summary><em>In <a href="/mapth/appendix/mathlib.html">Mathblib</a>...</em></summary>
 
 As stated earlier, Propositions form the basis of logic, so it's no surprise that [Prop is one of the few things that is foundationally defined in the language itself](https://leanprover-community.github.io/mathlib4_docs/foundational_types.html). Being foundational means that if it wasn't defined for us, we wouldn't be able to implement it ourselves.
 

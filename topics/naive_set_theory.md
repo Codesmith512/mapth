@@ -92,7 +92,7 @@ In order to kill this dragon, Ernst Zermelo teamed up with Fraenkel to create ZF
 ---
 
 <details markdown="1">
-<summary><em>In <a href="/appendix/mathlib.html">Mathblib</a>...</em></summary>
+<summary><em>In <a href="/mapth/appendix/mathlib.html">Mathblib</a>...</em></summary>
 
 [Sets](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Data/Set/Defs.html#Set.ofPred) are intensional sets, and [HashSets](https://leanprover-community.github.io/mathlib4_docs/Std/Data/HashSet/Basic.html#Std.HashSet) are extensional  sets.
 
