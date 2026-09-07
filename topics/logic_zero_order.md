@@ -80,7 +80,7 @@ Usually, propositions are bound to single-letter variables, and connectives are 
 
 As stated earlier, Propositions form the basis of logic, so it's no surprise that [Prop is one of the few things that is foundationally defined in the language itself](https://leanprover-community.github.io/mathlib4_docs/foundational_types.html). Being foundational means that if it wasn't defined for us, we wouldn't be able to implement it ourselves.
 
-Given that Propositions represent what is true, omitting them would amount to not having the idea of what it means to be true. Deriving that concept frorm a vacuum feels borderline philosophical.
+Given that Propositions represent what is true, omitting them would amount to not having the idea of what it means to be true. Deriving that concept from a vacuum feels borderline philosophical.
 
 Also interesting is that the [implication connective is just a function, which is also foundationally defined in the language](https://leanprover-community.github.io/mathlib4_docs/foundational_types.html). Given that implications represent causality, this also feels like an appropriate foundation, or else the philsosphical debate of causality would probably be settled.
 

@@ -16,7 +16,7 @@ Addition (or the coproduct) $A+B$ is the result of combining A and B such that d
 
 Subtraction is the inverse of addition, and lets one figure out $A+?=C$, noted as $C-A$. Not all subtraction problems are solvable with natural numbers.
 
-Multiplication (or the product) $A \times B$ is the result of pairing every member of A with a member of B. If you have a set of 3 elements and a set of 5 elements, there are 15 possible pairs. Note the relationship to [permutations in statistics](./stataistics.html)
+Multiplication (or the product) $A \times B$ is the result of pairing every member of A with a member of B. If you have a set of 3 elements and a set of 5 elements, there are 15 possible pairs. Note the relationship to [permutations in statistics](./statistics.html)
 
 Division is the inverse of multiplication and lets one figure out $A \times ? = C$, noted as $C/A$. Not all division problems are solvable with natural numbers.
 

@@ -52,7 +52,7 @@ Beware wandering around the capital though - the deeper you go, the more powerfu
 
 The ability to express and chain logical statements is a core part of the Lean language, not implemented specifically in mathlib.
 
-The parallel concept in lean's type systeem is [Type Universality](https://lean-lang.org/doc/reference/latest/The-Type-System/Universes/) :
+The parallel concept in lean's type system is [Type Universality](https://lean-lang.org/doc/reference/latest/The-Type-System/Universes/) :
 
 > types in a given universe may only quantify over types in smaller universes 
 
