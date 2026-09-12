@@ -5,11 +5,13 @@ area: logic
 rigor: village
 ---
 
-The people passing through the village of propositional logic regard everything as either
+The people passing through the village of propositional logic regard everything as systems of
 * Propositions
 * Connectives
 
 A proposition is a statement that is strictly true or false, and a connective is a relationship between two propositions. This forms the basis for virtually all other fields of logic, and most people staying in this village pretty quickly hike to [First Order Logic](./topics/logic_first_order.html).
+
+The primary import of this village is Satisfiability Solvers (usually SMT, but also pure SAT), which are [Higher Order](./logic_higher_order.html) programs that can deterministiacally and provably solve propositional systems. For example, when designing a part in CAD for 3D printing, one can usually specify the constraints that must be met - 4 edges, one has length of 2, 1 right angles, and 2 pairs of parallel lines - and the software can infer and prrove a solution (such as a square). Such programs are invaluable to many fields of engineering, because they save time in design and verifying the correctness of the design.
 
 # An Example
 Logic in general seeks to state what is known as precisely as possible and then use that knowledge to determine what all can possibly be known. Even with the primitive tools of propositional logic, we can start to see how that works by considering my behavior on a rainy day :

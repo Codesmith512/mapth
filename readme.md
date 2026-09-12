@@ -19,6 +19,9 @@
             <a href="./topics/logic_higher_order.html">
                 <rect opacity="0" x="601" y="834" width="171" height="120" fill="#D9D9D9"/>
             </a>
+            <a href="./topics/problem_pvnp.html">
+                <rect opacity="0" x="410" y="487" width="120" height="125" fill="#D9D9D9"/>
+            </a>
         </svg>
     </div>
 </div>
