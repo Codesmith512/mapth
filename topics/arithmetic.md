@@ -8,6 +8,8 @@ If you depart [Naive Set Theory](./naive_set_theory.html) headed east through th
 
 This is almost always the second stop after Naive Set Theory that children make on their pilgrimage to mathematics, though many forget about the underlying set theory as they progress.
 
+This village was formerly part of of [Peano Arithmetic](./arithmetic_peano.md), though the formal ceremonies and figureheads were abandoned so long ago that most people that live here now aren't even familiar with them.
+
 # Natural Numbers
 Arithmetic typically operates over natural numbers (noted $\mathbb{N}$), which are the whole numbers greater than or equal to 0 that you can have a set of that many elements.
 
