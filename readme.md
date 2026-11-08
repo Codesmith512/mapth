@@ -25,9 +25,10 @@ a[href] > rect {
             <a> <rect opacity="0.5" x="1629" y="1863" width="391" height="231" fill="#CC2288"/> </a>
             <a> <rect opacity="0.5" x="1629" y="1566" width="391" height="231" fill="#CC2288"/> </a>
             <a href="./topics/naive_set_theory.html"> <rect opacity="0.5" x="1668" y="1269" width="391" height="231" fill="#CC2288"/> </a>
-            <a href="./topics/arithmetic.html"> <rect opacity="0.5" x="2350" y="1206" width="391" height="231" fill="#CC2288"/> </a>
+            <a href="./topics/arithmetic.html"> <rect opacity="0.5" x="2350" y="1206" width="256" height="231" fill="#CC2288"/> </a>
             <a href="./topics/route01.html"> <rect opacity="0.5" x="2059" y="1233" width="291" height="109" fill="#CC2288"/> </a>
-            <a href="./topics/arithmetic_peano.html"> <rect opacity="0.5" x="2399" y="1517" width="391" height="231" fill="#CC2288"/> </a>
+            <a href="./topics/arithmetic_peano.html"> <rect opacity="0.5" x="2394" y="1553" width="391" height="231" fill="#CC2288"/> </a>
+            <a href="./topics/arithmetic_presburger.html"> <rect opacity="0.5" x="2606" y="1321" width="391" height="231" fill="#CC2288"/> </a>
         </svg>
     </div>
 </div>
